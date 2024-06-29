@@ -1,6 +1,6 @@
 import express, { json } from 'express'
 import _ from 'lodash'
-import { codeRoutes } from './src/routes/code.js'
+import {codeRoutes } from './src/routes/code'
 const app = express()
 app.use(json())
 const port = 3000
